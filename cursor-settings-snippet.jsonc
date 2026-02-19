@@ -1,0 +1,47 @@
+// purple-rain - Quick Setup for Cursor / VS Code
+// Paste this into your settings.json (Cmd+Shift+P > "Preferences: Open User Settings (JSON)")
+// This overrides your current theme's colors with the purple-rain palette.
+
+{
+  "workbench.colorCustomizations": {
+    "editor.background": "#1a0533",
+    "editor.foreground": "#e8e0f0",
+    "editor.lineHighlightBackground": "#2a0d4a",
+    "editor.selectionBackground": "#5b2d8e66",
+    "editorCursor.foreground": "#e0aaff",
+    "editorLineNumber.foreground": "#5b2d8e",
+    "editorLineNumber.activeForeground": "#b44dff",
+    "activityBar.background": "#120228",
+    "activityBar.foreground": "#e0aaff",
+    "sideBar.background": "#150330",
+    "sideBar.foreground": "#c4b5d4",
+    "titleBar.activeBackground": "#120228",
+    "titleBar.activeForeground": "#e0aaff",
+    "tab.activeBackground": "#1a0533",
+    "tab.activeBorderTop": "#b44dff",
+    "tab.inactiveBackground": "#120228",
+    "statusBar.background": "#120228",
+    "statusBar.foreground": "#c4b5d4",
+    "panel.background": "#150330",
+    "terminal.background": "#1a0533",
+    "terminal.foreground": "#e8e0f0",
+    "terminal.ansiRed": "#ff3860",
+    "terminal.ansiGreen": "#00ff87",
+    "terminal.ansiYellow": "#ffda45",
+    "terminal.ansiBlue": "#7b5eff",
+    "terminal.ansiMagenta": "#ff59d6",
+    "terminal.ansiCyan": "#00e5ff",
+    "button.background": "#b44dff",
+    "input.background": "#1d0740",
+    "input.border": "#3d2066"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#5b2d8e",
+    "strings": "#00ff87",
+    "numbers": "#ffda45",
+    "keywords": "#ff59d6",
+    "functions": "#7b5eff",
+    "types": "#ffda45",
+    "variables": "#e8e0f0"
+  }
+}

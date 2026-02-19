@@ -1,0 +1,30 @@
+# purple-rain - A deep purple Warp theme with vibrant syntax colors
+# Install: Copy this file to ~/.warp/themes/ (macOS) or ~/.local/share/warp-terminal/themes/ (Linux)
+# Then restart Warp and select it in Settings > Appearance > Current Theme
+
+name: purple-rain
+accent: '#b44dff'
+cursor: '#e0aaff'
+background: '#1a0533'
+foreground: '#e8e0f0'
+details: darker
+
+terminal_colors:
+  normal:
+    black:   '#12022a'
+    red:     '#ff3860'
+    green:   '#00ff87'
+    yellow:  '#ffda45'
+    blue:    '#7b5eff'
+    magenta: '#ff59d6'
+    cyan:    '#00e5ff'
+    white:   '#e8e0f0'
+  bright:
+    black:   '#3d2066'
+    red:     '#ff6b8a'
+    green:   '#69ffab'
+    yellow:  '#ffe87a'
+    blue:    '#a78bfa'
+    magenta: '#ff8de6'
+    cyan:    '#5cefff'
+    white:   '#ffffff'

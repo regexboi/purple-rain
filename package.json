@@ -1,0 +1,29 @@
+{
+  "name": "purple-rain",
+  "displayName": "purple-rain",
+  "description": "A deep purple theme with vibrant neon syntax colors for maximum readability",
+  "version": "1.0.0",
+  "publisher": "custom",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": ["theme", "dark", "purple", "neon", "color-theme"],
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
+  "scripts": {
+    "build:vsix": "./scripts/compile-vsix.sh"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "purple-rain",
+        "uiTheme": "vs-dark",
+        "path": "./themes/purple-rain-color-theme.json"
+      }
+    ]
+  }
+}

@@ -25,20 +25,23 @@
     "editorGutter.modifiedBackground": "#ffda45",
 
     "activityBar.background": "#120228",
-    "activityBar.foreground": "#e0aaff",
-    "activityBar.inactiveForeground": "#5b2d8e",
+    "activityBar.foreground": "#ffda45",
+    "activityBar.inactiveForeground": "#ffda45",
+    "activityBarTop.foreground": "#ffda45",
+    "activityBarTop.activeForeground": "#ffda45",
+    "activityBarTop.inactiveForeground": "#ffda45",
     "activityBarBadge.background": "#b44dff",
     "activityBarBadge.foreground": "#ffffff",
 
     "sideBar.background": "#150330",
     "sideBar.foreground": "#c4b5d4",
     "sideBar.border": "#2a0d4a",
-    "sideBarTitle.foreground": "#e0aaff",
+    "sideBarTitle.foreground": "#ffda45",
     "sideBarSectionHeader.background": "#1d0740",
-    "sideBarSectionHeader.foreground": "#e0aaff",
+    "sideBarSectionHeader.foreground": "#ffda45",
 
     "titleBar.activeBackground": "#120228",
-    "titleBar.activeForeground": "#e0aaff",
+    "titleBar.activeForeground": "#ffda45",
     "titleBar.inactiveBackground": "#0e0120",
     "titleBar.inactiveForeground": "#5b2d8e",
 
@@ -106,6 +109,7 @@
     "list.activeSelectionForeground": "#e8e0f0",
     "list.hoverBackground": "#1d0740",
     "list.inactiveSelectionBackground": "#1d0740",
+    "list.inactiveSelectionForeground": "#e8e0f0",
     "list.highlightForeground": "#b44dff",
 
     "gitDecoration.addedResourceForeground": "#00ff87",

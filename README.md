@@ -32,8 +32,8 @@ cursor --install-extension purple-rain  # Cursor
 
 ```bash
 # Download the .vsix from Releases, then:
-code --install-extension purple-rain-1.0.0.vsix   # VS Code
-cursor --install-extension purple-rain-1.0.0.vsix  # Cursor
+code --install-extension purple-rain-1.0.3.vsix   # VS Code
+cursor --install-extension purple-rain-1.0.3.vsix  # Cursor
 ```
 
 ### Option 2b: Build locally and install into Cursor
@@ -41,7 +41,7 @@ cursor --install-extension purple-rain-1.0.0.vsix  # Cursor
 ```bash
 # From this repo:
 npm run build:vsix
-cursor --install-extension ./purple-rain-1.0.0.vsix
+cursor --install-extension ./purple-rain-1.0.3.vsix
 ```
 
 ### Option 3: Symlink for development

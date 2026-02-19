@@ -10,7 +10,7 @@ A deep royal purple theme with vibrant neon syntax colors for **Cursor**, **VS C
 | Foreground | `#e8e0f0` — soft lavender white |
 | Keywords | `#ff59d6` — neon pink |
 | Strings | `#00ff87` — neon green |
-| Functions | `#7b5eff` — vivid purple |
+| Functions | `#59b8ff` — electric blue |
 | Numbers | `#ffda45` — bright yellow |
 | Types | `#ffda45` — golden yellow |
 | Operators | `#00e5ff` — electric cyan |
@@ -32,8 +32,8 @@ cursor --install-extension purple-rain  # Cursor
 
 ```bash
 # Download the .vsix from Releases, then:
-code --install-extension purple-rain-1.0.3.vsix   # VS Code
-cursor --install-extension purple-rain-1.0.3.vsix  # Cursor
+code --install-extension purple-rain-1.0.5.vsix   # VS Code
+cursor --install-extension purple-rain-1.0.5.vsix  # Cursor
 ```
 
 ### Option 2b: Build locally and install into Cursor
@@ -41,7 +41,7 @@ cursor --install-extension purple-rain-1.0.3.vsix  # Cursor
 ```bash
 # From this repo:
 npm run build:vsix
-cursor --install-extension ./purple-rain-1.0.3.vsix
+cursor --install-extension ./purple-rain-1.0.5.vsix
 ```
 
 ### Option 3: Symlink for development

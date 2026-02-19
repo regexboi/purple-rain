@@ -7,7 +7,7 @@
     "editor.background": "#1a0533",
     "editor.foreground": "#e8e0f0",
     "editor.lineHighlightBackground": "#2a0d4a",
-    "editor.selectionBackground": "#5b2d8e66",
+    "editor.selectionBackground": "#ff59d650",
     "editorCursor.foreground": "#e0aaff",
     "editorLineNumber.foreground": "#5b2d8e",
     "editorLineNumber.activeForeground": "#b44dff",
@@ -45,7 +45,7 @@
     "strings": "#00ff87",
     "numbers": "#ffda45",
     "keywords": "#ff59d6",
-    "functions": "#7b5eff",
+    "functions": "#59b8ff",
     "types": "#ffda45",
     "variables": "#e8e0f0"
   }

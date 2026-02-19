@@ -5,12 +5,15 @@
     "editor.background": "#1a0533",
     "editor.foreground": "#e8e0f0",
     "editor.lineHighlightBackground": "#2a0d4a",
-    "editor.selectionBackground": "#5b2d8e66",
-    "editor.selectionHighlightBackground": "#5b2d8e44",
-    "editor.findMatchBackground": "#b44dff55",
-    "editor.findMatchHighlightBackground": "#b44dff33",
-    "editor.wordHighlightBackground": "#b44dff22",
-    "editor.wordHighlightStrongBackground": "#b44dff33",
+    "editor.selectionBackground": "#ff59d650",
+    "editor.selectionHighlightBackground": "#ff59d63a",
+    "editor.selectionHighlightBorder": "#ff8de688",
+    "editor.findMatchBackground": "#ff59d680",
+    "editor.findMatchHighlightBackground": "#ff59d64d",
+    "editor.wordHighlightBackground": "#ff59d632",
+    "editor.wordHighlightStrongBackground": "#ff59d64d",
+    "editor.wordHighlightBorder": "#ff8de666",
+    "editor.wordHighlightStrongBorder": "#ff8de699",
     "editorCursor.foreground": "#e0aaff",
     "editorWhitespace.foreground": "#3d206644",
     "editorIndentGuide.background1": "#3d2066",
@@ -195,7 +198,7 @@
       "name": "Functions",
       "scope": ["entity.name.function", "meta.function-call", "support.function"],
       "settings": {
-        "foreground": "#7b5eff"
+        "foreground": "#59b8ff"
       }
     },
     {
@@ -366,5 +369,11 @@
         "foreground": "#ffda45"
       }
     }
-  ]
+  ],
+  "semanticTokenColors": {
+    "function": "#59b8ff",
+    "method": "#59b8ff",
+    "function.defaultLibrary": "#4cc7ff",
+    "method.defaultLibrary": "#4cc7ff"
+  }
 }

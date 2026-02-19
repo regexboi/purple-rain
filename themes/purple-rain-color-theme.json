@@ -33,6 +33,7 @@
     "activityBarTop.foreground": "#ffda45",
     "activityBarTop.activeForeground": "#ffda45",
     "activityBarTop.inactiveForeground": "#ffda45",
+    "icon.foreground": "#ffda45",
     "activityBarBadge.background": "#b44dff",
     "activityBarBadge.foreground": "#ffffff",
 
@@ -46,7 +47,11 @@
     "titleBar.activeBackground": "#120228",
     "titleBar.activeForeground": "#ffda45",
     "titleBar.inactiveBackground": "#0e0120",
-    "titleBar.inactiveForeground": "#5b2d8e",
+    "titleBar.inactiveForeground": "#ffda45",
+
+    "commandCenter.foreground": "#ffda45",
+    "commandCenter.activeForeground": "#ffda45",
+    "commandCenter.inactiveForeground": "#ffda45",
 
     "tab.activeBackground": "#1a0533",
     "tab.activeForeground": "#e8e0f0",
@@ -83,8 +88,8 @@
     "panel.background": "#150330",
     "panel.border": "#2a0d4a",
     "panelTitle.activeBorder": "#b44dff",
-    "panelTitle.activeForeground": "#e0aaff",
-    "panelTitle.inactiveForeground": "#5b2d8e",
+    "panelTitle.activeForeground": "#ffda45",
+    "panelTitle.inactiveForeground": "#ffda45",
 
     "input.background": "#1d0740",
     "input.foreground": "#e8e0f0",
@@ -112,7 +117,7 @@
     "list.activeSelectionForeground": "#e8e0f0",
     "list.hoverBackground": "#1d0740",
     "list.inactiveSelectionBackground": "#1d0740",
-    "list.inactiveSelectionForeground": "#e8e0f0",
+    "list.inactiveSelectionForeground": "#ffda45",
     "list.highlightForeground": "#b44dff",
 
     "gitDecoration.addedResourceForeground": "#00ff87",

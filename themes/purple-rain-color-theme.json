@@ -160,7 +160,7 @@
       "name": "Comments",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#5b2d8e",
+        "foreground": "#a78bfa",
         "fontStyle": "italic"
       }
     },

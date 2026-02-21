@@ -14,7 +14,7 @@ A deep royal purple theme with vibrant neon syntax colors for **Cursor**, **VS C
 | Numbers | `#ffda45` — bright yellow |
 | Types | `#ffda45` — golden yellow |
 | Operators | `#00e5ff` — electric cyan |
-| Comments | `#5b2d8e` — muted purple |
+| Comments | `#a78bfa` — brighter lavender |
 | Accent | `#b44dff` — vibrant purple |
 
 ## Install — Cursor / VS Code

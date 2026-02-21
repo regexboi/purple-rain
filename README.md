@@ -19,21 +19,30 @@ A deep royal purple theme with vibrant neon syntax colors for **Cursor**, **VS C
 
 ## Install — Cursor / VS Code
 
-### Option 1: From this repo (one command)
+### Option 1: From this repo (build + install)
 
 ```bash
-# Clone and install directly
-git clone https://github.com/YOUR_USERNAME/purple-rain.git
-code --install-extension purple-rain  # VS Code
-cursor --install-extension purple-rain  # Cursor
+# Clone, build, and install
+git clone https://github.com/regexboi/purple-rain.git
+cd purple-rain
+pnpm run build:vsix
+code --install-extension ./purple-rain-1.0.8.vsix    # VS Code
+cursor --install-extension ./purple-rain-1.0.8.vsix  # Cursor
 ```
 
-### Option 2: Install the .vsix
+### Option 2: Install the release `.vsix`
 
 ```bash
-# Download the .vsix from Releases, then:
+# Download the .vsix asset from GitHub Releases, then:
 code --install-extension purple-rain-1.0.8.vsix   # VS Code
 cursor --install-extension purple-rain-1.0.8.vsix  # Cursor
+```
+
+If install fails, verify you downloaded the release asset (not an HTML page):
+
+```bash
+file purple-rain-1.0.8.vsix
+# should say: Zip archive data
 ```
 
 ### Option 2b: Build locally and install into Cursor

@@ -1,6 +1,6 @@
 # purple-rain
 
-A deep royal purple theme with vibrant neon syntax colors for **Cursor**, **VS Code**, and **Warp Terminal**.
+A deep royal purple theme with vibrant neon syntax colors for **Cursor**, **VS Code**, **Warp Terminal**, and **Ghostty**.
 
 ## Preview
 
@@ -80,6 +80,39 @@ copy warp\purple_rain.yaml %APPDATA%\warp\Warp\data\themes\
 ```
 
 Restart Warp and select **purple-rain** in Settings → Appearance.
+
+## Install — Ghostty
+
+Ghostty custom themes are plain Ghostty config files. Per the Ghostty docs, custom theme files are discovered from `~/.config/ghostty/themes/` and enabled via the `theme` setting in `~/.config/ghostty/config`.
+
+Copy `ghostty/purple-rain` into your Ghostty themes directory:
+
+```bash
+# macOS / Linux
+mkdir -p ~/.config/ghostty/themes
+cp ghostty/purple-rain ~/.config/ghostty/themes/purple-rain
+```
+
+Then enable it by adding this exact line to `~/.config/ghostty/config`:
+
+```conf
+theme = purple-rain
+```
+
+Use the lowercase `purple-rain` name here. Ghostty also ships a different built-in theme named `Purple Rain`.
+
+If you want to verify Ghostty can see it:
+
+```bash
+ghostty +list-themes | rg 'purple-rain'
+ghostty +validate-config
+```
+
+On macOS, relaunch Ghostty after copying the theme or open a new instance:
+
+```bash
+open -na Ghostty.app
+```
 
 ## License
 

@@ -1,6 +1,6 @@
 # purple-rain
 
-A deep royal purple theme with vibrant neon syntax colors for **Cursor**, **VS Code**, **Warp Terminal**, and **Ghostty**.
+A deep royal purple theme with vibrant neon syntax colors for **Cursor**, **VS Code**, **Warp Terminal**, **Ghostty**, and **Micro**.
 
 ## Preview
 
@@ -49,7 +49,7 @@ file purple-rain-1.0.8.vsix
 
 ```bash
 # From this repo:
-npm run build:vsix
+pnpm run build:vsix
 cursor --install-extension ./purple-rain-1.0.8.vsix
 ```
 
@@ -147,6 +147,39 @@ On macOS, relaunch Ghostty after copying the theme or open a new instance:
 ```bash
 open -na Ghostty.app
 ```
+
+## Install — Micro
+
+Micro custom themes are plain `.micro` files stored in `~/.config/micro/colorschemes` and activated via the `colorscheme` setting in `~/.config/micro/settings.json`.
+
+Use the installer script from this repo:
+
+```bash
+./scripts/install-micro-theme.sh
+```
+
+What it does:
+
+- Copies `micro/purple-rain.micro` into `~/.config/micro/colorschemes/purple-rain.micro`
+- Creates or updates `~/.config/micro/settings.json`
+- Sets `"colorscheme": "purple-rain"` without removing unrelated Micro settings
+
+Manual install:
+
+```bash
+mkdir -p ~/.config/micro/colorschemes
+cp micro/purple-rain.micro ~/.config/micro/colorschemes/purple-rain.micro
+```
+
+Then ensure `~/.config/micro/settings.json` contains:
+
+```json
+{
+  "colorscheme": "purple-rain"
+}
+```
+
+This theme is designed for true-color terminals. If your terminal supports it, `COLORTERM=truecolor` will give the closest match to the rest of the purple-rain palette.
 
 ## License
 

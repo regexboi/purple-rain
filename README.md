@@ -64,6 +64,40 @@ ln -s "$(pwd)" ~/.cursor/extensions/purple-rain
 
 Then restart and select **purple-rain** from the color theme picker (`Cmd+Shift+P` → "Preferences: Color Theme").
 
+## Install — Codex App
+
+Set one of the Codex presets as the current Codex app theme:
+
+```bash
+./scripts/set-codex-theme.sh
+```
+
+What it does:
+
+- Shows a grouped numbered picker for the available Codex presets
+- Lets you preview each preset by background, accent, and text color in the terminal
+- Writes the selected dark theme into:
+
+```bash
+~/.codex/.codex-global-state.json
+```
+
+Important warning:
+
+- If Codex is open, the script force-kills Codex and relaunches it
+- This interrupts any running Codex threads, automations, or pending work
+- The interactive picker warns about this and asks for `y/n` confirmation before applying
+
+Direct usage:
+
+```bash
+./scripts/set-codex-theme.sh --list
+./scripts/set-codex-theme.sh purple-rain-classic
+./scripts/set-codex-theme.sh codex-app/purple-rain-neon-royale.theme
+```
+
+Restart Codex if the updated theme does not appear immediately.
+
 ## Install — Warp Terminal
 
 Copy `warp/purple_rain.yaml` to your Warp themes directory:

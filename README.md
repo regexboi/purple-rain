@@ -1,6 +1,6 @@
 # purple-rain
 
-A deep royal purple theme with vibrant neon syntax colors for **Cursor**, **VS Code**, **Warp Terminal**, **Ghostty**, and **Micro**.
+A deep royal purple theme with vibrant neon syntax colors for **Cursor**, **VS Code**, **Warp Terminal**, **Ghostty**, **Micro**, and **Omarchy**.
 
 ## Preview
 
@@ -147,6 +147,25 @@ On macOS, relaunch Ghostty after copying the theme or open a new instance:
 ```bash
 open -na Ghostty.app
 ```
+
+## Install — Omarchy
+
+Omarchy themes are folder-based. Per the Omarchy theme guide, the only required file is `colors.toml`; optional `backgrounds/` and `icons.theme` files can be added for wallpapers and icon styling.
+
+This repo now includes an Omarchy theme at `omarchy/purple-rain/` with:
+
+- `colors.toml` for the Purple Rain terminal palette
+- `backgrounds/` populated with the current Tokyo Night wallpapers as a temporary placeholder
+- `icons.theme` set to `Yaru-purple-dark` for a matching file manager icon set
+
+Install it by copying the folder into your Omarchy themes directory:
+
+```bash
+mkdir -p ~/.config/omarchy/themes
+cp -R omarchy/purple-rain ~/.config/omarchy/themes/purple-rain
+```
+
+Then select `purple-rain` from Omarchy's theme picker. The wallpaper set currently matches Tokyo Night and can be replaced later without changing the color theme.
 
 ## Install — Micro
 
